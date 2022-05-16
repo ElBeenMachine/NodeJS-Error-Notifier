@@ -10,11 +10,9 @@ These instructions will get you a copy of the project up and running.
 
 What things you need to install the software and how to use them
 
-```
 - You wil need a Gmail account to send the emails from. 
     - This email will need to have 2 factor authentication enabled.
-    - You will need to generate an application password for this email. See https://support.google.com/accounts/answer/185833?hl=en for more info.
-```
+    - You will need to generate an application password for this email. See https://support.google.com/accounts/answer/185833?hl=en for more information.
 
 ### Installation
 
