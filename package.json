@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-error-notifier",
+  "version": "1.0.0",
+  "description": "A simple NodeJS module that can notify developers via email if their application errors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElBeenMachine/NodeJS-Error-Notifier.git"
+  },
+  "keywords": [
+    "Error",
+    "Notification",
+    "Notify",
+    "Email"
+  ],
+  "author": "Ollie Beenham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElBeenMachine/NodeJS-Error-Notifier/issues"
+  },
+  "homepage": "https://github.com/ElBeenMachine/NodeJS-Error-Notifier#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "nodemailer": "^6.7.5"
+  }
+}
