@@ -17,7 +17,7 @@ module.exports = class Notifier {
     * Create a notifier object
     * @param {Object} options - Object with options
     * @param {string} options.senderEmail - email address used to send notifications
-    * @param {string} options.senderPass - password from sender account
+    * @param {string} options.senderPassword - password from sender account
     * @param {string|Array} options.emails - set of emails, which notifications are sent to (may be string or array of strings)
     * @param {string} options.projectName - current project name
     * @returns {Notifier}
