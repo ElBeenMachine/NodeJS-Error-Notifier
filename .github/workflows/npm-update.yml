@@ -11,13 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-        
-      - name: 'Change Version'
-        uses: reedyuk/npm-version@1.1.1
-        with:
-          version: '1.0.1'
-          package: ''
-          git-tag-version: 'true'
   
   publish:
     runs-on: ubuntu-latest
@@ -45,6 +38,13 @@ jobs:
 
       - name: Publish to NPM
         run: echo "Under construction"
+
+      - name: 'Change Version'
+        uses: reedyuk/npm-version@1.1.1
+        with:
+          version: '1.0.1'
+          package: ''
+          git-tag-version: 'true'
 
       - name: Version App
         run: npm version patch
