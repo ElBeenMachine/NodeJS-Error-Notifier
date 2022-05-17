@@ -30,9 +30,6 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Version App
-        run: npm version patch
-
       - name: Commit New Version
         run: |
           git show
@@ -40,3 +37,6 @@ jobs:
 
       - name: Publish to NPM
         run: echo "Under construction"
+
+      - name: Version App
+        run: npm version patch
