@@ -1,7 +1,7 @@
 name: Update NPM Repository
 on:
   release:
-  types: [published]
+    types: [created]
 
 jobs: 
   publish:
