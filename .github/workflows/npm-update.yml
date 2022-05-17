@@ -1,4 +1,5 @@
 name: Update NPM Repository
+
 on:
   release:
     types: [created]
