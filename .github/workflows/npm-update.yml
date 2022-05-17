@@ -6,6 +6,19 @@ on: workflow_dispatch
   #   types: [created]
 
 jobs: 
+  version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+        
+      - name: 'Change Version'
+        uses: reedyuk/npm-version@1.1.1
+        with:
+          version: '1.0.1'
+          package: 'subproject-directory/'
+          git-tag-version: 'true'
+  
   publish:
     runs-on: ubuntu-latest
     steps:
